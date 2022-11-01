@@ -31,3 +31,5 @@ def get_shop_list_by_dishes(dishes, person_count):
                 ingredient['quantity'] = int(ingredient['quantity']) * person_count
                 shop_list[a] = ingredient
     return shop_list
+
+get_cook_book_dict('recipes.txt')
